@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.model{
+    height: 100vh;
+    width: 30%;
+}
+
+.model img{
+    width: 100%;
+    height: 100%;
+}
+
+.rem-for{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.rem-for label{
+    padding-right: 16rem;
+    padding-top: 6px;
+    font-size: 14px;
+}
+
+.new{
+    display: flex;
+    font-family: poppins;
+    justify-content: center;
+}
+
+.new h4{
+    color: #FFC779;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 13px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+#signin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+}
+
+.brand{
+    color: #FFC779;
+    font-family: jost;
+    font-size: 32px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    margin-right: 54rem;
+}
+
+#signin-form h1{
+    font-family: poppins;
+    font-weight: bold;
+    color: #011627;
+    padding: 0px 0px 24px 0;
+}
+
+#signin-form p{
+    font-family: poppins;
+    color: #011627;
+    padding: 0 0 12px 0;
+}
+
+.email{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.password{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 4px;;
+}
+
+.username{
+    padding: 16px 24px;
+    width: 50%;
+    border: 1px solid #c7bdc6;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+}
+
+.signin-btn button{
+    padding:8px 48px;
+    background-color: #FFC779;
+    color: #011627;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.signin-btn button:hover{
+    background-color: #011627;
+    color: #faf3ff;
+    transition: 0.3s ease-in-out;
+}
+
+.signin-btn{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.signup-btn button{
+    padding:8px 48px;
+    background-color: #FFC779;
+    color: #011627;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.signup-btn button:hover{
+    background-color: #011627;
+    color: #faf3ff;
+    transition: 0.3s ease-in-out;
+}
+
+.signup-btn{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.another-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 16px;
+    color: #011627;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.social-icons .fa-brands{
+    padding: 12px;
+    background-color: #e4d9d8;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-icons .fa-brands:hover{
+    background-color: #FFC779;
+    color: #faf3ff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+}
+
+#signup-form h1{
+    padding-bottom: 1rem;
+}
+
+/* Add a CSS class to hide elements */
+.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+}
